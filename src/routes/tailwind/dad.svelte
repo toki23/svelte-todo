@@ -14,7 +14,7 @@
 </script>
 
 <main
-    class="border-2 w-64 "
+    class="border-2 w-64 h-full"
     use:dndzone={{ items: $items, flipDurationMs }}
     on:consider={handleDndConsider}
     on:finalize={handleDndFinalize}
