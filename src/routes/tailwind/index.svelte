@@ -1,5 +1,6 @@
 <script>
     import Dad from "./dad.svelte";
+    import SvelteSeo from "svelte-seo";
     import { items1, items2, items3, del } from "./items.js";
     let text = "";
     let id = 5;
@@ -14,6 +15,11 @@
         return false;
     };
 </script>
+
+<SvelteSeo
+    title="TODOリスト"
+    description="Svelteの練習用に作成したTODOリスト"
+/>
 
 <main class="mx-auto dark ">
     <h1 class="text-xl">TODOリスト</h1>

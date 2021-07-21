@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^1.0.0-next.25",
-		"bootstrap": "^5.0.0-beta3"
+		"bootstrap": "^5.0.0-beta3",
+		"svelte-seo": "^1.2.1"
 	}
 }
